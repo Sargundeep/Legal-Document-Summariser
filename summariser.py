@@ -27,7 +27,7 @@ st.sidebar.header("Settings")
 file = st.sidebar.file_uploader("Upload a legal text document", type=["txt", "pdf"])
 
 # Input field for specifying the word limit
-word_limit = st.sidebar.number_input("Word Limit for Summarization", min_value=10, step=10)
+word_limit = st.sidebar.number_input("Word Limit for Summarization", min_value=100, step=10)
 
 # Selector for choosing the summarization model
 selected_model = "BERT-based Summarization"
